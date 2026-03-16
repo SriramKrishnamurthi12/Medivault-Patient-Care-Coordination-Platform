@@ -1,0 +1,46 @@
+Project Title: Smart Health Portal – AI Powered Patient Care Coordination System
+
+Software Requirements:
+
+1. Frontend:
+   - Node.js (v18 or above)
+   - npm (Node Package Manager)
+   - React.js
+   - Vercel (for deployment, optional)
+
+2. Backend and Database:
+   - Supabase (PostgreSQL backend-as-a-service)
+   - PostgreSQL (via Supabase)
+   - Supabase Storage (for medical documents)
+   - Supabase Edge Functions (for server-side logic)
+
+3. AI Chatbot Services:
+   - LLaMA 2 Chat model weights
+   - Hugging Face Inference API (for serving the LLaMA 2 model)
+   - Supabase API integration for chatbot communication
+
+4. OCR and Prescription Processing:
+   - Python 3.9+
+   - TensorFlow (for LSTM-based OCR model)
+   - Keras
+   - NumPy
+   - OpenCV (for image preprocessing)
+   - PIL (image handling)
+
+5. OCR Dataset:
+   - IAM Handwriting Dataset (for handwritten text recognition)
+     OR
+   - CVL Handwriting Dataset
+     OR
+   - Custom-collected prescription dataset (if available)
+
+6. Notification Services:
+   - SendGrid (for email reminders and OTP delivery)
+
+7. Development Tools:
+   - Visual Studio Code
+   - Git (version control)
+   - Web Browser (Chrome / Firefox)
+
+8. Operating System:
+   - Windows / macOS / Linux
